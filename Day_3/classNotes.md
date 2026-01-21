@@ -90,6 +90,7 @@
 # Assignment
 * Create a generative pattern in p5.js
 * Create 4 images (50px x 50px) that can be used in the gen patterns
+* [Example assignment, by Ashwathy, NID Blr 2027](https://aswathykk.github.io/P5_js/day3_assignment/)
 * Look through these old computer magazines
 * [COMPUTER_GRAPHICS_AND_ART_Aug1977](http://dada.compart-bremen.de/docUploads/COMPUTER_GRAPHICS_AND_ART_Aug1977.pdf)
 * [ProgrammInformation21_PI21](http://dada.compart-bremen.de/docUploads/ProgrammInformation21_PI21.pdf)
