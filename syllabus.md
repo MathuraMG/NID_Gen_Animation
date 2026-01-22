@@ -68,6 +68,9 @@ Ways to Participate ***During Class***
 
 If you have any concerns about expectations for participation, please do communicate the same with me at the earliest.
 
+# Use of AI in your work
+This is a tricky one. Given that it is everywhere now, I can understand the urge to ask chatGPT to write your code for you. However in this class, the use of AI tools to help write your code is discouraged. THe reason is simple - you do not use a calculator till you learn the basics of math. Similarly in this class we will be focussing on the learning the basics of the tool, how to we use it, what are best practices etc. Without mastering this, it does not make sense to ask "someone else" to do it for you. If you see a case where you think AI is a non-negotiable need, please discuss it with me.
+
 # Laptops:
 Laptop use is fine if you are using your laptop to present in class, or if we’re in the middle of an exercise that makes use of it. Whenever classmates are presenting or we’re in the midst of a class discussion, please keep your laptop closed. The quality of the class depends in large part on your attention and active participation, so please respect that and close your lid.
 
