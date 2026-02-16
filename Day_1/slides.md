@@ -1,11 +1,17 @@
 ---
 marp: true
 ---
-------
 
-![gif1](./assets/gif1.gif)
-![gif2](./assets/gif2.gif)
-![gif3](./assets/gif3.gif)
+Generative Animation
+
+
+
+<img src="./assets/gif1.gif" height="225" >
+<img src="./assets/gif2.gif" height="225" >
+<img src="./assets/gif3.gif" height="225" >
+<img src="./assets/gif4.gif" height="225" >
+<img src="./assets/gif5.gif" height="225" >
+
 
 ---------
 

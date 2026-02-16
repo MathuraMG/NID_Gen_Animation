@@ -4,7 +4,8 @@
 - Class introduction
   - Class schedule and syllabus
   - Discussions and assignments expectations
-  - Final Project - create a 1 min generative interactive animation. We'll talk more about this on Friday!
+  - Class Communication
+  - Final Project - create a 2 min generative interactive animation. We'll talk more about this on Friday!
 - Computational Media
   - Computation as a design material
   - How have computers changed the creation of art
@@ -28,7 +29,7 @@
    * In p5, the origin of the canvas is in the top left. the "x" value increases from left to right, and the "y" value increases top to down.
    * the code inside the `setup` function runs ONCE in the beginning, and the code inside the `draw` function runs forever until the sketch stops or we explicity make it stop 
    * All the code inside `setup` and `draw` should be present inside the `{` and `}`
-   * Remember, the code inside the funcitons run one after the other, meaning if you were to call the `background` function in the end of draw, you would not see ny of the other shapes you have as the background would cover them all
+   * Remember, the code inside the funcitons run one after the other, meaning if you were to call the `background` function in the end of draw, you would not see any of the other shapes you have as the background would cover them all
 
 * Simple shapes in p5 - shapes we covered in class :
    * `ellipse(x,y,width,height)`  x and y refer to the center of the ellipse
@@ -81,6 +82,7 @@ Create a self portrait using these shapes. Remember, a self portrait is an expre
 
 # Assignment
 * Test out arcs
+* Email me your Github accounts
 * Read [https://intro.nyuadim.com/wp-content/uploads/2020/08/theArtOfInteractiveDesign.pdf]
 * Make a composition using one single shape to convey an emotion
 * Love, Joy, Sadness/Compassion, Anger, Courage, Fear, Disgust, Wonder, and Peace
