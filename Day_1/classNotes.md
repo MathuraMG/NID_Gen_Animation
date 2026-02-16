@@ -66,20 +66,6 @@ Create a self portrait using these shapes. Remember, a self portrait is an expre
 * Download [VSCode](https://code.visualstudio.com/) and open it up.
 * Let's download our code from p5.js and move it over to the editor.
 
-## Github
-* Github is a platform that allows you to store and manage code. It is a great way to make your code available online so that you can share your work and easily collaborate with others.
-* Github Desktop is an interface that allows you to upload your local code onto Github.
-* Create an account on [Github](http://github.com/) 
-* Install [Github Desktop](https://github.com/apps/desktop)
-* Link your local github desktop app to your github account
-* Github stores your code in what is known as repositories. Think of a repo as a large folder. The great part of these repos is that Github keeps tracks of what changes are made in your repo and the files within it
-* For this class we will create a single repo which will contain all of your work in it.
-* Create a repo -> PlayfulMedia
-* The repo creates a local folder structure that you can view in your system.
-* Open this folder in your local system, and add the p5 code in an appropriate file structure. 
-* "Push" your repository onto github (the cloud!) via the desktop app
-* Check the link on github and **email me your repo link at mathura@papercranelab.com. Subject- NID Repo Link**
-
 # Assignment
 * Test out arcs
 * Email me your Github accounts
