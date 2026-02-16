@@ -1,7 +1,13 @@
 ---
 marp: true
 ---
+------
 
+![gif1](./assets/gif1.gif)
+![gif2](./assets/gif2.gif)
+![gif3](./assets/gif3.gif)
+
+---------
 
 What is a computer?
 
