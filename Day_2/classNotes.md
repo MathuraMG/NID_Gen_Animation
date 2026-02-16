@@ -72,4 +72,3 @@
 
 
 # ASSIGNMENT
-Add interaction to your work from yesterday. Your animation should indicate a shift from one emotion to another
