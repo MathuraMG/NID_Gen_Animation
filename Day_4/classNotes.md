@@ -45,4 +45,4 @@ Currently when we work on p5 canvas, the assumption is that the origin is on the
 # Assgns
 * finish day 1, 2, 3
 * Create a gen pattern with images and ARRAYS!!!
-* Practice arrays -create a gen pattern with rectangles. Create an array of colors (using hex values). Each rectangle will use a colour from that array via a random choice.
+* Practice arrays - create a gen pattern with rectangles. Create an array of colors (using hex values). Each rectangle will use a colour from that array via a random choice.
