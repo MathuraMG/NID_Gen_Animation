@@ -1,20 +1,20 @@
-let gSize = 50;
+let gSize = 200;
 let colours = ["#EB4C4C","#FF7070", "#FFA6A6", "#FFEDC7"]
 
 
 let gridImages = [];
 
 function preload() {
-  gridImages[0] = loadImage("./assets/gArt-00.png");
-  gridImages[1] = loadImage("./assets/gArt-01.png");
-  gridImages[2] = loadImage("./assets/gArt-02.png");
-  gridImages[3] = loadImage("./assets/gArt-03.png");
+  for(let i = 0;i<4;i++) {
+    let imageString = "./assets/Matisse-0" + i + ".png";
+    gridImages[i] = loadImage(imageString);
+  }
   
 }
 
 function setup() {
   createCanvas(innerWidth, innerHeight);
-  frameRate(10);
+  frameRate(2);
 }
 
 function draw() {
