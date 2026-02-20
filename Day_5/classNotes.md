@@ -16,7 +16,7 @@
   * For example, calling map(2, 0, 10, 0, 100) returns 20. The first three arguments set the original value to 2 and the original range from 0 to 10. The last two arguments set the target range from 0 to 100. 20's position in the target range [0, 100] is proportional to 2's position in the original range [0, 10].
   * TODO : make a ellipse move in the center even if the mouse is moving all across the canvas
 
-## Noise function
+## Noise function (We will cover this next week)
   * Perlin noise is a random sequence generator producing a more naturally ordered, harmonic succession of numbers compared to the standard random() function.
   * [Perlin noise reference](https://p5js.org/reference/p5/noise/)
   * TODO : Make a 1-D perlin noise space to change the size of an ellipse / make a wave
@@ -25,7 +25,6 @@
 ## Button using if else
 🔴 💻 **[IN CLASS SKETCH - Make a button using if else](https://editor.p5js.org/itp42/sketches/vNxA3MhBt)**
 
-  
 ## Get function in image
 * You can use the get function in 2 ways. If you give it ONLY x and y values, it gives you the rgb value for that single pixel.
 * If you give it 4 values - x, y, width, height - it will give you the pixel values of that part of the image. Meaning, you can display it as an image!
@@ -40,4 +39,9 @@
 🔴💻[Example - working with a spritesheet which has one animation](https://editor.p5js.org/itp42/sketches/jrDRcf2XN)
 
 🔴💻[Example - working with a spritesheet which has multiple animations](https://editor.p5js.org/itp42/sketches/oO0Rt5_cJ)
+
+# Assignment
+* Plan out your finals. Come in with a project name, and a basic idea. Write your ideas in this document (50-100words)
+* Make new assets and make them work with the spritesheets code.
+* **Wrap up documentation and assignment backlog**
 

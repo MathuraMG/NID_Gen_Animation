@@ -1,35 +1,36 @@
-let sprite, sX, sY, sW, sH;
-let count = 0;
-let sArray = [];
+// Spritesheet variables
+let sX = 8;
+let sY = 4;
+let spriteSheet;
+
+//cel variables
+let celW, celH;
+let cels = [];
+
+let x =0;
+
 function preload() {
-  sX = 8;
-  sY = 4;
-
-  sprite = loadImage("images/explosionFull.png");
-
+  spriteSheet = loadImage("./images/explosionFull.png")
 }
-
 function setup() {
-  createCanvas(400, 400);
-  sW = sprite.width / sX;
-  sH = sprite.height / sY;
-  console.log(sprite);
-  for (let i = 0; i < sY; i++) {
-    for (let j = 0; j < sX; j++) {
-      sArray[i * sX + j] = sprite.get(j * sW, i * sH, sW, sH);
+  createCanvas(400,400);
+  //calculating the cel width and height
+  celW = spriteSheet.width/sX;
+  celH = spriteSheet.height/sY;
+  //breaking the spritesheet into cels and storing it in an array
+  for(let i =0;i<sY;i+=1) {
+    for(let j =0;j<sX;j+=1) {
+      cels[i*sX + j] = spriteSheet.get(j*celW, i*celH, celW, celH);
     }
   }
-  console.log(sArray)
 }
 
 function draw() {
   background(0);
-  if (mouseIsPressed) {
-    count++;
-    if (count >= sX * sY) {
-      count = 0;
-    }
-    image(sArray[count], 0, 0);
+  if(keyIsPressed==true) {
+    x+=1; 
   }
-
+  image(cels[x%32],0,0);
+  
 }
+
