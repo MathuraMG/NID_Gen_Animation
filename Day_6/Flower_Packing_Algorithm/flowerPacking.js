@@ -7,18 +7,18 @@ let totalFlowers = 200;
 let wreath;
 
 function preload() {
-  wreath = loadImage("./assets/bloom.png");
+  wreath = loadImage("./assets/wreath.png");
   for (let i = 0; i < noFlowerImages; i++) {
     flowerImages[i] = loadImage("./assets/" + i + ".png");
   }
 }
 
 function setup() {
-  createCanvas(2000,1200);
-  wreath.resize(2000,1200);
-  background(0);
-  // image(wreath,0,0);
+  createCanvas(1200,1200);
+  wreath.resize(1200,1200);
   
+  // image(wreath,0,0);
+  angleMode(DEGREES);
   imageMode(CENTER);  
   // for(let i =0;i<totalFlowers;i++) {
   //   flowers.push(new Flower(random(width), random(height),floor(random(noFlowerImages))));
@@ -26,7 +26,8 @@ function setup() {
 
 }
 function draw() {
-  for(let k=0;k<50;k++) {
+  background(0);
+  for(let k=0;k<10;k++) {
     let tempX = random(width);
     let tempY = random(height);
     if(wreath.get(tempX, tempY)[0]<10){
@@ -37,6 +38,7 @@ function draw() {
   for(let i =0;i<flowers.length;i++) {
     flowers[i].drawFlower();
     flowers[i].growFlower();
+    
     for(let j=0;j<flowers.length;j++) {
       if(i!=j) {
         flowers[i].checkCollision(flowers[j]);
@@ -47,6 +49,7 @@ function draw() {
   let orgNo = flowers.length;
   flowers = flowers.filter(removeSmallFlowers);
   let newNo = flowers.length;
+  
 
 }
 
@@ -55,17 +58,6 @@ function removeSmallFlowers(flower){
     return false;
   } 
   return true;
-  
 }
 
-// const a = [2, 7, 9, 15, 19];
-// function isPrime(n) {
-//     for (let i = 2; n > i; i++) {
-//         if (n % i === 0) {
-//             return false;
-//         }
-//     }
-//     return n > 1;
-// }
 
-// console.log(a.filter(isPrime));

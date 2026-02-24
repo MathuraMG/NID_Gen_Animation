@@ -5,6 +5,8 @@ class Flower {
     this.index = index;
     this.size = .1;
     this.isGrowing = true;
+    this.count = 0;
+    this.randomSeed = random(0,100000);
   }
 
   resetXY(x,y) {
@@ -12,7 +14,12 @@ class Flower {
     this.y = y;
   }
   drawFlower() {
-    image(flowerImages[this.index],this.x, this.y,this.size,this.size);
+    push();
+    translate(this.x, this.y);
+    rotate(360*noise(count*0.0001 + this.randomSeed))
+    image(flowerImages[this.index],0,0,this.size,this.size);
+    count++;
+    pop();
   }
 
   growFlower() {
@@ -25,5 +32,9 @@ class Flower {
     if(dist(this.x, this.y, otherFlower.x, otherFlower.y)<this.size/2+otherFlower.size/2){
       this.isGrowing = false;
     }
+  }
+
+  jitter() {
+    
   }
 }
