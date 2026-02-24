@@ -35,8 +35,3 @@
   * The flower grows over time
   * BONUS : Only the flowers close to the mouse sway when you drag the mouse
   
-
-
-Class notes
-* https://editor.p5js.org/mathura-complex/sketches/fPBE7wNGr
-* https://editor.p5js.org/mathura-complex/sketches/Nhk7AO8f5

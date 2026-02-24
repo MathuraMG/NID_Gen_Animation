@@ -13,6 +13,7 @@ function setup() {
   createCanvas(innerWidth, innerHeight);
   console.log(flowerImages);
   imageMode(CENTER);
+  createFlowers(100);
 }
 
 function draw() {
@@ -21,18 +22,18 @@ function draw() {
     flowers[i].drawFlower();
     
   }
-}
-
-function mouseClicked() {
-  let newFlower = new Flower(mouseX, mouseY, floor(random(noFlowerImages)));
-  flowers.push(newFlower);
-}
-
-function mouseDragged() {
-  sway = map(mouseX, 0, width, -2,2);
-  for(let i =0;i<flowers.length;i+=1) {
-    flowers[i].swayFlower(sway,mouseX);
+  if(keyIsPressed) {
+    
+    for(let i =0;i<flowers.length;i+=1) {
+      sway= 20*noise(10000*i+ frameCount*0.01)-5;
+      flowers[i].swayFlower(sway);
+    }
   }
-  
 }
 
+function createFlowers(no) {
+  for(let i =0;i<no;i++) {
+    let newFlower = new Flower(random(0,width), random(height/3, height), floor(random(noFlowerImages)));
+    flowers.push(newFlower);
+  }
+}

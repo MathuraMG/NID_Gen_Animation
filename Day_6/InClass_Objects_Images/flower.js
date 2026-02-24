@@ -1,10 +1,13 @@
 class Flower {
   constructor(x,y,index) {
     this.x = x;
+    this.orgX = x;
     this.y = y;
     this.index = index;
     this.curve = random(-20,20);
     this.floorX = x;
+    this.seed = random(0,10000);
+    this.count = 0;
   }
   drawFlower() {
     noFill();
@@ -21,10 +24,11 @@ class Flower {
     image(flowerImages[this.index],this.x, this.y);
   }
 
-  swayFlower(sway, xPos) {
-    if(abs(mouseX - this.x) <50) {
-      this.x += sway;
-    }
-    
+  swayFlower(sway) {
+    this.count++;
+    this.x = this.orgX + sway;
+
   }
+
+  
 }
